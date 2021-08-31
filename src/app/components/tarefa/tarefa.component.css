@@ -1,0 +1,54 @@
+section {
+    width: 100%;
+    max-width: 100%;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+	padding: 10px 0;
+	table-layout:fixed;
+	border-collapse: collapse;
+}
+
+section:hover {
+	background-color: rgba(255,255,255,.1);
+}
+
+section input {
+    cursor: pointer;
+}
+
+section input:checked + label {
+    text-decoration: line-through;
+}
+
+section i {
+    cursor: pointer;
+    opacity: .6;
+}
+
+section i:hover {
+    opacity: 1;
+}
+
+/* -- ? -- */
+
+td:nth-child(1){
+	width: 24px;
+}
+
+td:nth-child(3){
+	width: 72px;
+	font-size: 12px;
+	text-align: center;
+}
+
+td:nth-child(2){
+	cursor: default;
+}
+
+td:nth-child(4){
+	width: 36px;
+}
+
+tr.done td:nth-child(2){
+	text-decoration: line-through;
+}
+

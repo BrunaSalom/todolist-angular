@@ -1,0 +1,28 @@
+Visão geral:
+    ☐ Aplicar o CSS anterior no styles.css
+    ☐ Limpe app.component.html
+    ☐ Incorpore a fonte no index.html (roboto)
+
+Lista de tarefas:
+    ☐ Criar componente components/ListaDeTarefas
+    ☐ html
+    ☐ css
+    ☐ add componente no app.component pra poder ver
+
+Tarefas existentes:
+    ☐ Criar componente components/Tarefas
+    ☐ html com tarefas aleatórias
+    ☐ css
+    ☐ html do lista de tarefas com app-tarefas
+
+Tarefas mais dinâmicas:
+    ☐ Criar pasta models no src/app
+    ☐ criar um .ts das Tarefas
+    interface ou class?
+    checkbox - boolan
+    tarefa - string
+    prioridade - enum
+    ☐ Declarar tarefas como array na lista de tarefas
+
+Injetar tarefa no array:
+    ☐ criar componente component/NovaTarefa
